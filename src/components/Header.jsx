@@ -7,11 +7,12 @@ class Header extends Component {
     return (
       <div>
         <header className='header'>
-            <div className='logo'>AAA</div>
+            <div style={{fontSize:"2rem"}}>AAA</div>
             <ul className='nav--bar'>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>About</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </header>
       </div>

@@ -1,9 +1,13 @@
 header{
     display: flex;
     justify-content: space-between;
-    border: 1px solid salmon;
-    /* margin: auto 5rem; */
-    padding: 0 2em;
+    align-items: center;
+    padding: 0 4em;
+    height: 5rem;
+    background-color: #363636;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 300;
 }
 
 ul {
@@ -16,6 +20,20 @@ ul li{
 
 ul li+li{
     margin-left: 2rem;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+ul li a:hover{
+    border: 0.5px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #363636;
+    font-weight: 400;
 }
 
 .hero{
